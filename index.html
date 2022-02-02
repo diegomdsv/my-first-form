@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Xbox Live</title>
+</head>
+<body>
+
+<div class="container">
+
+	<div class="pageheader">
+		<img src="images/xbox-logo-white.png">
+		<h1>XBOX</h1>
+	</div>
+
+<form>
+	<div class="grupo">
+		<div class="apresentacao">
+			<img class="avatar" src="images/avatar.png" alt="avatar">
+			<h1>Registre-se agora</h1>
+		</div>
+		<div class="campo">
+			<input required type="text" name="user_name" placeholder="Nome">
+		</div>
+
+		<div class="campo">
+			<input type="text" name="last-name" placeholder="Sobrenome">
+		</div>
+
+		<div class="campo">
+			<input required type="email" name="" placeholder="Email">
+		</div>
+
+		<div class="campo">
+			<input required type="tel" name="phone" placeholder="Telefone" pattern="[0-9]{3}-[0-9]{5}-[0-9]{4}">
+		</div>
+
+		<div class="campo">
+			<p>Escolha um plano</p>
+			<select required>
+				<option selected disabled>Selecione...</option>
+				<option>Xbox Game Pass Ultimate</option>
+				<option>Xbox Game Pass Gold</option>
+				<option>Xbox Game Pass Lite</option>
+			</select>
+		</div> <!-- campo -->
+
+		<div class="termos">
+			<input required class="concordo" type="checkbox" name="">
+			Eu concordo com os termos de uso dispostos nesta <a href="https">Política.</a>
+		</div> <!-- termos -->
+
+			<button class="botao" type="submit" onsubmit="">Registrar</button>
+
+	</div> <!-- grupo -->
+	</form>
+</div> <!-- container -->
+
+</body>
+</html>

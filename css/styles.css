@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-image: url("https://media.wired.com/photos/608aefc61a16e5fc13bc07ec/master/w_1920,h_1080,c_limit/Gear-Sekiro-src-From-Software.jpg");
+}
+
+.pageheader {
+	background-color: #000000;
+	display: inline-flex;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: white;
+	font-family: sans-serif;
+}
+
+.pageheader img {
+	margin: 0.5rem;
+	width: 3rem;
+}
+
+.pageheader h1 {
+	margin-top: 0.5rem;
+	margin-left: 0.3rem;
+	font-size: 300%;
+}
+
+.grupo {
+	width: 40%;
+	margin: 7rem auto 2rem auto;
+	padding: 0 2rem 4rem 2rem;
+	border-radius: 2rem;
+	box-shadow: .3rem .3rem rgba(0, 0, 255, .2);
+	background-image: linear-gradient(to bottom right, rgba(97, 61, 193, 0.9), rgba(255, 207, 210, 0.9));
+}
+
+.campo input, select {
+	width: 100%;
+	font-size: 140%;
+	margin-bottom: 1.4rem;
+	border-style: none;
+	background-color: transparent;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-bottom: 2px solid white;
+	outline: none;
+}
+
+::placeholder {
+	color: white;
+}
+
+.apresentacao {
+	text-align: center;
+}
+
+.apresentacao img {
+	text-align: center;
+	height: 17rem;
+	margin: 0;
+}
+
+.apresentacao h1 {
+	font-size: 2rem;
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+	text-shadow: 0 0 4px rgba(255, 207, 210, 1);
+	margin: 0 auto 4rem auto;
+	border-bottom: 1px white solid;
+
+}
+
+.campo input {
+	color: white;
+	background-color: transparent;
+}
+/* ***** */
+.campo input:indeterminate {
+	color: white;
+	background-color: transparent;
+}
+
+.select input:blank {
+	color: white;
+}
+
+.campo input:focus {
+	background: #dab6fc;
+	color: purple;
+}
+
+.campo option:disabled {
+	color: grey;
+}
+
+.campo option:nth-of-type(2) {
+	font-weight: 600;
+	background-color: #dab6fc;
+	color: green;
+}
+
+.campo option:nth-of-type(3) {
+	font-weight: 500;
+	background-color: #dab6fc;
+	color: goldenrod;
+}
+
+.campo option:nth-of-type(4) {
+	font-weight: 500;
+	background-color: #dab6fc;
+	color: grey;
+}
+
+.campo, .termos p {
+	margin-bottom: 0.5rem;
+	font-size: 1.1rem;
+	font-family: sans-serif;
+}
+
+.termos input {
+	margin-top: 1.0rem;
+	transform: scale(1.6);
+	margin-right: 0.6rem;
+}
+
+.campo select {
+	font-size: 150%;
+	color: white;
+}
+
+.campo select-selected {
+	color: white;
+	font-size: 150%;
+}
+
+.campo p, .termos {
+	font-family: sans-serif;
+	font-weight: 500;
+	color: #ededed;
+	margin-bottom: 0.6rem;
+}
+
+.termos a {
+	color: #ededed;
+}
+
+.botao {
+	display: flex;
+	text-align: center;
+	position: relative;
+	margin: 3rem auto 0 auto;
+	font-size: 150%;
+	color: white;
+	padding: 0.6rem 3rem;
+	background-color: purple;
+	border-radius: 20px;
+	border: 2px solid white;
+}
+
+.campo input:hover, select:hover, .concordo input:hover {
+	background-color: rgba(255, 207, 210, 1);
+	border-radius: 20px;
+	box-shadow: 0 0 1rem rgba(255, 207, 210, 1);
+}
+
+.botao:hover {
+	background-color: #dab6fc;
+	color: purple;
+}
+
+.apresentacao img:hover {
+	filter: brightness(130%);
+	background-image: radial-gradient(closest-side, rgba(255, 207, 210, 1), rgba(0, 0, 0, 0));
+}
+
+.apresentacao h1:hover {
+	filter: brightness(130%);
+	color: rgba(255, 207, 210, 1);
+	text-shadow: 0 0 1rem purple;
+}
+
+.grupo input[type="tel"]:valid {
+		background-color: transparent;
+		color: white;
+}
